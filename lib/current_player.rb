@@ -12,9 +12,9 @@ end
 
 def current_player(board)
   if turn_count.even?
-     print "O"
+     return "O"
   else
-    print "X"
+    return "X"
   end
   current_player
 
