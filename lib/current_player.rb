@@ -2,11 +2,9 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 def turn_count(board)
 counter = 0
-board.each do |board_space|
-  counter += 1
+board.each_char { |position| if position == "X" || position == "O" turns += 1}
 end
-turn_count(board)
-end
+turns
 
 def current_player
 
