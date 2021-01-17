@@ -10,12 +10,11 @@ end
 counter
 end
 
-def current_player(board, counter)
+def current_player(counter)
   if counter.even?
       "X"
   else
      "O"
   end
   current_player
-
 end
