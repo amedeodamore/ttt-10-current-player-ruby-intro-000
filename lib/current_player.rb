@@ -16,6 +16,6 @@ def current_player(board)
   else
     return "O"
   end
-  return current_player(board)
+current_player(board)
 
 end
