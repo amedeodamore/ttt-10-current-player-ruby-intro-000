@@ -16,6 +16,5 @@ def current_player(board, turn_count)
   else
     puts "O"
   end
-end
   current_player(board, turn_count)
 end
